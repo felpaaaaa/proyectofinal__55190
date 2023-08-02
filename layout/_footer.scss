@@ -1,0 +1,39 @@
+    div{
+        p{
+        
+        margin-right: 10px;
+        margin-bottom: 40px;
+        color: rgb(0, 0, 0);
+        }
+        }
+    
+.footer__index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 100px;
+    background-image: $color-secundario;
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100%;
+}
+.p__footer {
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.img__index {
+    width: 40px;
+    height: 40px;
+}
+.img__index--ig {
+    width: 40px;
+    height: 40px;
+}
+.img__index--whapp {
+    width: 40px;
+    height: 40px;
+}

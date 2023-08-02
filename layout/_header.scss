@@ -1,0 +1,49 @@
+body{
+    font-family: $tipografia-general;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow-x: hidden;
+    header{
+        nav{
+            background-image: $color-primario;
+            div{
+                div{
+                    img{
+                        
+            div{
+                    ul{
+                        li{
+                            list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: blueviolet;
+                            }
+                        }
+                    }  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.img__index--icon:hover {
+    transform: scale(1.3);
+    transition: 0.4s; 
+}
+
+.logo__header {
+    width: 130px;
+    height: 130px;
+}

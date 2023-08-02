@@ -1,0 +1,55 @@
+main{
+    background-image: $color-terciario;
+    h1{
+        font-family: $tipografia-general;
+        text-align: center;
+        color: #000000;
+        div{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) ;
+            justify-items: center;
+            div{
+                text-align: center;
+                width: 600px;
+                h2{
+                    font-family: $tipografia-secundaria;
+                h3{
+                    font-family: $tipografia-secundaria;
+                img{
+                    height: 900px;
+                    width: 600px;
+                }
+                }
+                }
+            }
+        }
+    }
+}
+
+.main__productos--bg {
+    background-image: $color-terciario;
+}
+
+.grid__container--productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    justify-items: center;
+}
+
+.main__productos--h1{
+    text-align: center;
+    color: #000000;
+}
+.main__productos--camisa{
+    text-align: center;
+    width: 600px;
+}
+
+.img__productos--camisa{
+    height: 900px;
+    width: 600px;
+}
+
+.grid__container--productos{
+    @include grid ( 3 , center )
+}
